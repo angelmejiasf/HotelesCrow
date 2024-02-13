@@ -1,0 +1,142 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/fondo.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+    
+}
+
+.contenedor-hoteles {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.hotel-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    
+    
+}
+
+.reservas{
+    text-align: center;
+    align-items: center;
+}
+
+.hoteles{
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+form {
+    margin-top: 10px;
+    
+}
+
+h2 {
+    color: #333;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.iniciosesion{
+    background-color: white;
+    
+    /* margin-top: 20%; */
+    text-align: center;
+   
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.header{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    background-color: white;
+}
+
+h1{
+    background-color: white;
+}
+
+.reserva{
+    background-color: white;
+}
